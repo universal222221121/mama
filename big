@@ -47,7 +47,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates"," [+] Added - Grand Pirates (7/3/2022)")
+Tab:AddParagraph("Updates"," [+] Added - Titan Warfare (10/3/2022)")
 
 -- Universal script tab
 
@@ -202,7 +202,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure, 13. Project Baki 2, 14. Reaper 2, 15. Grand Pirates")
+Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure, 13. Project Baki 2, 14. Reaper 2, 15. Grand Pirates, 16. Titan Warfare")
 
 -- Anime Battle Arena
 
@@ -438,9 +438,10 @@ Tab:AddButton({
       	 
       	 OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "Lazy Hub Has Been Executed! (Discord Not Found)",
+	    Content = "Lazy Hub Has Been Executed! (Copied Discord Invite)",
 	    Image = "",
 	    Time = 5
+        setclipboard("https://discord.gg/7NH4fgbVrs")
         })
   end
 })
@@ -476,6 +477,24 @@ Tab:AddButton({
 	    Image = "",
 	    Time = 5
         })
+  end
+})
+
+-- Titan warfare
+
+Tab:AddButton({
+	Name = "16. Titan Warfare",
+	Callback = function()
+      		
+  	    loadstring(game:HttpGet("https://raw.githubusercontent.com/SealboyDiscord/Ro-Flux/main/TW.lua"))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Ro-Flux Hub Has Been Executed! (Copied Discord Invite)",
+	    Image = "",
+	    Time = 5
+        })
+        setclipboard("https://discord.gg/WwpgxcgjbE")
   end
 })
 

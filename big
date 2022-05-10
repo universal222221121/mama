@@ -438,10 +438,9 @@ Tab:AddButton({
       	 
       	 OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "Lazy Hub Has Been Executed! (Copied Discord Invite)",
+	    Content = "Lazy Hub Has Been Executed! (Discord Not Found)",
 	    Image = "",
 	    Time = 5
-        setclipboard("https://discord.gg/7NH4fgbVrs")
         })
   end
 })
@@ -480,7 +479,7 @@ Tab:AddButton({
   end
 })
 
--- Titan warfare
+-- Titan Warfare
 
 Tab:AddButton({
 	Name = "16. Titan Warfare",
